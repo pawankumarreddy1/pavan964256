@@ -1,0 +1,6 @@
+resource "aws_key_pair" "pavan1" {
+  key_name   = "pavan1-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCqdPsG89JQLRYevIfByHoQWhz5IvrPbPE1NaphamMi0+xum21uTUCFuc6iwWLUVcVME94QbUmuW6QUn0fACNvH9VAfLW8qY5DCJsQ6KIeco06BjTgk10fL7EivFk56x+UiroBKbONVSRsuVB8DxMCjNTlcrwlgYhjcmn4UvjFf8RPMPoQpjaNH5IWIL3tZ+gmxbtOCzZ9fJdzWo/yO6hmnegGrB/k/iEnTvJKlxXObS/W3a2sKa6sfJYCE2VHcG6HSYsHDdRm69hXgNv18ATiqoWsmYaApfs1weflkn9dzQkcblrIpSRb6vCG8nEpOLgRDI0tN3ubg5hyJHOztA5Dl3P8QGWG2zN1t4JXSjT6k2Wls2vFKy3CKKWXyUNpg9cVeOXv4riGQHlJDo9f0xwPiNqczPMauJ12UGjG3b/MAvcFxY4r+TRyK3KxnzFfZQnxd4UPUdXd5z/y2x+Wfn/NgLh88onLnDsPJ2T+HBBCOTfLuJ1ba5cW3CdwLViM8Qvc= narendrareddy@narendra"
+  
+
+}
