@@ -9,11 +9,22 @@ output "vpcname" {
 output "countofaz" {
   value = length(data.aws_availability_zones.available.names)
 }
+output "cicdip" {
+  value = aws_instance.jenkins1.public_ip
 
-output "bastion" {
-  value = (aws_instance.bastion1.id)
 }
 
-output "appplication1" {
-  value = (aws_instance.application1.id)
+output "apache2ip" {
+  value = aws_instance.apache2.public_ip
+  
+}
+
+output "apache2pubdns" {
+  value = aws_instance.apache2.public_dns
+  
+}
+
+output "cicdpubdns" {
+  value = aws_instance.jenkins1.public_dns
+  
 }
